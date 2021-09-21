@@ -123,3 +123,18 @@ a certain extent.
 ## Lectures
 [Safe Reinforcement Learning](https://web.stanford.edu/class/cs234/slides/2017/cs234_guest_lecture_safe_rl.pdf)
 
+## Theory
+### Robust control
+- S. Bansal, M. Chen, S. Herbert, and C. J. Tomlin, “Hamilton-jacobi
+reachability: A brief overview and recent advances”, in Conference on
+Decision and Control (CDC), 2017.
+- S. Li and O. Bastani, “Robust model predictive shielding for safe
+reinforcement learning with stochastic dynamics”, in Proc. IEEE Int.
+Conf. Robotics and Automation (ICRA), 2020.
+- J. F. Fisac, A. K. Akametalu, M. N. Zeilinger, S. Kaynama, J.
+Gillula, and C. J. Tomlin, “A general safety framework for learningbased
+control in uncertain robotic systems”, in IEEE Transactions on
+Automatic Control, 2018.
+- J. H. Gillula and C. J. Tomlin, “Guaranteed safe online learning via
+reachability: Tracking a ground target using a quadrotor”, in Proc.
+IEEE Int. Conf. Robotics and Automation (ICRA), 2012.
