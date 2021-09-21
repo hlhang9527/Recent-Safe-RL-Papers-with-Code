@@ -1,5 +1,5 @@
 # A List of Recent Safe Reinforcement Learning Papers with Code
-This repo  lists most recent paper with their code in safe RL, some of papers without available code is not included. Welcome to edit this list if more papers found. 
+This repo lists most recent papers with their code in safe RL, some papers without available code are not included. Welcome to change this list if additional documents found. 
 
 ## Algorithms
 ### Safe Exploration
