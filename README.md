@@ -1,10 +1,10 @@
 # A List of Recent Safe Reinforcement Learning Papers with Code
-This repo lists most recent papers with their code in safe RL, some papers without available code are not included. Welcome to change this list if additional documents found. 
-
+This repo lists most recent papers with their code in safe RL, some papers without available code are not included. Welcome to change this list if additional documents found.
 ## Algorithms
 ### Safe Exploration
-
-- [Safe Reinforcement Learning Using Advantage-Based Intervention](https://arxiv.org/abs/2106.09110), 2021 arxiv, [code](https://github.com/nolanwagener/safe_rl) 
+- [LS3: Latent Space Safe Sets for Long-Horizon Visuomotor Control of Sparse Reward Iterative Tasks](https://arxiv.org/pdf/2107.04775.pdf), 2021 arxiv, [code](https://github.com/albertwilcox/latent-space-safe-sets)
+- [Learning Barrier Certificates: Towards Safe Reinforcement Learning with Zero Training-time Violations](https://arxiv.org/pdf/2108.01846.pdf), 2021 arxiv, no code
+- [Safe Reinforcement Learning Using Advantage-Based Intervention](https://arxiv.org/abs/2106.09110), 2021 ICML, [code](https://github.com/nolanwagener/safe_rl) 
 - [Recovery RL: Safe Reinforcement Learning with Learned Recovery Zones](https://arxiv.org/pdf/2010.15920.pdf), 2021 IEEE ROBOTICS AND AUTOMATION LETTERS, [code](https://github.com/abalakrishna123/recovery-rl)
 - [Safe Reinforcement Learning via Curriculum Induction](https://paperswithcode.com/paper/safe-reinforcement-learning-via-curriculum), 2020 Nips, [code](https://github.com/zuzuba/CISR_NeurIPS20) 
 - [AlwaysSafe: Reinforcement Learning without Safety Constraint Violations during Training](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1226.pdf), 2021 AAMAS, [code](https://github.com/AlgTUDelft/AlwaysSafe)
@@ -123,6 +123,7 @@ a certain extent.
 ## Lectures
 [Safe Reinforcement Learning](https://web.stanford.edu/class/cs234/slides/2017/cs234_guest_lecture_safe_rl.pdf)
 
+
 ## Theory
 ### Robust control
 - S. Bansal, M. Chen, S. Herbert, and C. J. Tomlin, “Hamilton-jacobi
@@ -138,3 +139,4 @@ Automatic Control, 2018.
 - J. H. Gillula and C. J. Tomlin, “Guaranteed safe online learning via
 reachability: Tracking a ground target using a quadrotor”, in Proc.
 IEEE Int. Conf. Robotics and Automation (ICRA), 2012.
+- E. Altman, Constrained Markov Decision Processes.1999, p. 260.
