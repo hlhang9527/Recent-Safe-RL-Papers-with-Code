@@ -1,4 +1,4 @@
-# A List of Recent Safe Reinforcement Learning Papers with Code
+# A List of Recent Safe Reinforcement Learning Papers
 This repo lists most recent papers with their code in safe RL, some papers without available code are not included. Welcome to change this list if additional documents found.
 ## Algorithms
 ### Safe Exploration
