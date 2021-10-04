@@ -7,7 +7,7 @@ This repo lists most recent papers with their code in safe RL, some papers witho
 - [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf), 2018 Nips
 [code](https://github.com/befelix/safe_learning)
 - [Provably efficient safe exploration via primal-dual policy optimization](http://proceedings.mlr.press/v130/ding21d/ding21d.pdf), 2021 ICML, no code, [slide](https://slideslive.com/s/dongsheng-ding-24136)
-- [Learning to be Safe: Deep RL with a Safety Critic](https://arxiv.org/pdf/2010.14603.pdf), 2020 arxiv, no code
+
 - [LS3: Latent Space Safe Sets for Long-Horizon Visuomotor Control of Sparse Reward Iterative Tasks](https://arxiv.org/pdf/2107.04775.pdf), 2021 arxiv, [code](https://github.com/albertwilcox/latent-space-safe-sets)
 - [Learning Barrier Certificates: Towards Safe Reinforcement Learning with Zero Training-time Violations](https://arxiv.org/pdf/2108.01846.pdf), 2021 arxiv, no code
 - [Safe Reinforcement Learning Using Advantage-Based Intervention](https://arxiv.org/abs/2106.09110), 2021 ICML, [code](https://github.com/nolanwagener/safe_rl) 
@@ -64,9 +64,21 @@ This repo lists most recent papers with their code in safe RL, some papers witho
 
 ## Applications
 - [Constrained Dual-Level Bandit for Personalized Impression Regulation in Online Ranking Systems](https://dl.acm.org/doi/fullHtml/10.1145/3461340)
-
+- [IEEE expl]()
 ## Combine with other methods:
 - [Context-Aware Safe Reinforcement Learning for Non-Stationary Environments](https://arxiv.org/pdf/2101.00531.pdf), 2021 arxiv, no code, meta-learning
+- [Learning to be Safe: Deep RL with a Safety Critic](https://arxiv.org/pdf/2010.14603.pdf), 2020 arxiv, no code, transfer learning
+- [Safe exploration of nonlinear dynamical systems: A predictive safety filter for reinforcement learning](https://www.researchgate.net/profile/Kim-Wabersich/publication/329641554_Safe_exploration_of_nonlinear_dynamical_systems_A_predictive_safety_filter_for_reinforcement_learning/links/5ede2aab299bf1d20bd87981/Safe-exploration-of-nonlinear-dynamical-systems-A-predictive-safety-filter-for-reinforcement-learning.pdf),
+no code
+- [REINFORCEMENT LEARNING WITH SAFE EXPLORATION FOR NETWORK SECURITY](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8682983&casa_token=GeE4bpTF4HgAAAAA:NJQIciHEQmPecuZFKdeutprlK17SIkwZcf70ac-qI-LWbe_qeHIVTzAAo2ZEzxDf41DQsrFE4w&tag=1),
+no code
+- [Continuous Safe Learning Based on First Principles and Constraints for
+Autonomous Driving](http://ceur-ws.org/Vol-2560/paper29.pdf), no code
+- [Blind Spot Detection for Safe Sim-to-Real Transfer](https://www.jair.org/index.php/jair/article/view/11436), [code](https://github.com/ramya-ram/discovering-blind-spots)
+- [UAV-aided cellular communications with deep reinforcement learning against jamming](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9170648&casa_token=mubTX-ORnokAAAAA:cW2QQrilGVmGgf_tKBiwmBBBIvqeGNM30ujTlZYrgShSx2_l0Id-r-Dtaz7Oium2WksPYeLefQ), no code
+- [Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences](http://proceedings.mlr.press/v119/brown20a/brown20a.pdf), ICML 2020, [code](- [Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences](http://proceedings.mlr.press/v119/brown20a/brown20a.pdf), ICML 2020, [code]()
+)
+- [Safe policy improvement with baseline bootstrapping](http://proceedings.mlr.press/v97/laroche19a/laroche19a.pdf), ICML 2019
 ## Surveys
 - [A Comprehensive Survey on Safe Reinforcement Learning](http://www.jmlr.org/papers/volume16/garcia15a/garcia15a.pdf)
 - [Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning](https://paperswithcode.com/paper/safe-learning-in-robotics-from-learning-based), 2021, [code](https://github.com/utiasDSL/safe-control-gym)
