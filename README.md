@@ -2,6 +2,11 @@
 This repo lists most recent papers with their code in safe RL, some papers without available code are not included. Welcome to change this list if additional documents found.
 ## Algorithms
 ### Safe Exploration
+- [Projection-based Constrained Policy Optimization (PCPO)](https://openreview.net/forum?id=M3NDrHEGyyO), 2020 ICLR, no code.
+- [Accelerating Safe Reinforcement Learning with Constraint-mismatched Baseline Policies](https://proceedings.mlr.press/v139/yang21i.html), 2021 ICML, [code](https://sites.google.com/view/spacealgo)
+- [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf), 2018 Nips
+[code](https://github.com/befelix/safe_learning)
+- [Provably efficient safe exploration via primal-dual policy optimization](http://proceedings.mlr.press/v130/ding21d/ding21d.pdf), 2021 ICML, no code, [slide](https://slideslive.com/s/dongsheng-ding-24136)
 - [Learning to be Safe: Deep RL with a Safety Critic](https://arxiv.org/pdf/2010.14603.pdf), 2020 arxiv, no code
 - [LS3: Latent Space Safe Sets for Long-Horizon Visuomotor Control of Sparse Reward Iterative Tasks](https://arxiv.org/pdf/2107.04775.pdf), 2021 arxiv, [code](https://github.com/albertwilcox/latent-space-safe-sets)
 - [Learning Barrier Certificates: Towards Safe Reinforcement Learning with Zero Training-time Violations](https://arxiv.org/pdf/2108.01846.pdf), 2021 arxiv, no code
@@ -32,9 +37,7 @@ This repo lists most recent papers with their code in safe RL, some papers witho
 - [Responsive Safety in Reinforcement Learning by PID Lagrangian Methods](http://proceedings.mlr.press/v119/stooke20a.html), 2020 ICML, [code](https://github.com/astooke/rlpyt/tree/master/rlpyt/projects/safe)
 - [IPO: Interior-Point Policy Optimization under Constraints](https://ojs.aaai.org/index.php/AAAI/article/view/5932), 2020 AAAI, no code
 ### Policy Learning
-- [Accelerating Safe Reinforcement Learning with Constraint-mismatched Baseline Policies](https://proceedings.mlr.press/v139/yang21i.html), 2021 ICML, no code
-- [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf), 2018 Nips
-[code](https://github.com/befelix/safe_learning)
+
 - [Constrained Policy Optimization](https://arxiv.org/abs/1705.10528), 2017 ICML, [code](https://paperswithcode.com/paper/constrained-policy-optimization)
 - [Enforcing robust control guarantees within neural network policies](https://arxiv.org/abs/2011.08105), 2021 ICML, [code](https://github.com/locuslab/robust-nn-control)
 - [Constrained Cross-Entropy Method for Safe Reinforcement Learning](https://proceedings.neurips.cc/paper/2018/file/34ffeb359a192eb8174b6854643cc046-Paper.pdf), 2018 Nips, [code](https://github.com/oscarkey/constrained-cem-mpc)
@@ -58,6 +61,12 @@ This repo lists most recent papers with their code in safe RL, some papers witho
 ### Human in the loop
 - [Trial without Error: Towards Safe Reinforcement Learning via Human Intervention](https://arxiv.org/abs/1707.05173)
 
+
+## Applications
+- [Constrained Dual-Level Bandit for Personalized Impression Regulation in Online Ranking Systems](https://dl.acm.org/doi/fullHtml/10.1145/3461340)
+
+## Combine with other methods:
+- [Context-Aware Safe Reinforcement Learning for Non-Stationary Environments](https://arxiv.org/pdf/2101.00531.pdf), 2021 arxiv, no code, meta-learning
 ## Surveys
 - [A Comprehensive Survey on Safe Reinforcement Learning](http://www.jmlr.org/papers/volume16/garcia15a/garcia15a.pdf)
 - [Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning](https://paperswithcode.com/paper/safe-learning-in-robotics-from-learning-based), 2021, [code](https://github.com/utiasDSL/safe-control-gym)
@@ -70,7 +79,16 @@ This repo lists most recent papers with their code in safe RL, some papers witho
 ## Lectures
 [Safe Reinforcement Learning](https://web.stanford.edu/class/cs234/slides/2017/cs234_guest_lecture_safe_rl.pdf)
 
-
+## Classical paper 
+- Sui, Y., Gotovos, A., Burdick, J. W., and Krause, A. Safe
+exploration for optimization with Gaussian processes. In
+International Conference on Machine Learning (ICML), 2015.
+- Turchetta, M., Berkenkamp, F., and Krause, A. Safe exploration
+in finite Markov decision processes with Gaussian
+processes. In Neural Information Processing Systems
+(NeurIPS), 2016. [code](https://github.com/befelix/SafeMDP)
+- Wachi et al. "Safe Exploration and Optimization of
+Constrained MDPs using Gaussian Processes." AAAI 2018. no code
 ## Theory
 ### Robust control
 - S. Bansal, M. Chen, S. Herbert, and C. J. Tomlin, “Hamilton-jacobi
