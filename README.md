@@ -64,8 +64,17 @@ This repo lists most recent papers with their code in safe RL, some papers witho
 
 ## Applications
 - [Constrained Dual-Level Bandit for Personalized Impression Regulation in Online Ranking Systems](https://dl.acm.org/doi/fullHtml/10.1145/3461340)
-- [IEEE expl]()
+- [Estimating and Penalizing Preference Shift in Recommender Systems](https://dl.acm.org/doi/abs/10.1145/3460231.3478849)
+- [Short-term wind speed forecasting using deep reinforcement learning with improved multiple error correction approach](https://www.sciencedirect.com/science/article/pii/S0360544221023768?casa_token=-Be0aQLq640AAAAA:GhRzGMioBFB_ZnWGtGLiWMtcTjgsqkQd969u6jp-ORwjADhPbazlLfY-0bhCxzpgyt68Jc8UbQQ6)
+- [An Improved Reinforcement Learning for Security-Constrained Economic Dispatch of Battery Energy Storage in Microgrids](https://link.springer.com/chapter/10.1007/978-981-16-5188-5_22)
+- [Safe Reinforcement Learning for Emergency LoadShedding of Power Systems](https://arxiv.org/abs/2011.09664)
+- [Barrier Function-based Safe Reinforcement Learning for Emergency Control of Power Systems](https://arxiv.org/abs/2103.14186)
+- [Safe reinforcement learning-based resilient proactive scheduling for a commercial building considering correlated demand response](https://ieeexplore.ieee.org/abstract/document/9371751)
+- [A Learning-based Optimal Market Bidding Strategy for Price-Maker Energy Storage](https://arxiv.org/abs/2106.02396)
+- [Energy-Efficient Secure Video Streaming in UAV-Enabled Wireless Networks: A Safe-DQN Approach](https://ieeexplore.ieee.org/abstract/document/9475975?casa_token=C2XRMAYDyywAAAAA:YA44uHtZya3Jqvs3DwrT42anOFECyjtH2bZ_yGMpxsxbFMpiFasPoP9vZ6Lbifk1lvGFAtkGfU4)
+- [Trajectory Optimization for UAV Emergency Communication with Limited User Equipment Energy: A safe-DQN Approach](https://ieeexplore.ieee.org/abstract/document/9385412?casa_token=6VQg4qiD46QAAAAA:XdBL7C5Jq9D3weiL_ma3YwmnWVfmK2mdAOJyGL0ZHfr4-BEttnvWscyzE4DrSak76IbNKfEWrnw)
 ## Combine with other methods:
+- [Provably Safe Model-Based Meta Reinforcement Learning: An Abstraction-Based Approach](https://arxiv.org/abs/2109.01255)
 - [Context-Aware Safe Reinforcement Learning for Non-Stationary Environments](https://arxiv.org/pdf/2101.00531.pdf), 2021 arxiv, no code, meta-learning
 - [Learning to be Safe: Deep RL with a Safety Critic](https://arxiv.org/pdf/2010.14603.pdf), 2020 arxiv, no code, transfer learning
 - [Safe exploration of nonlinear dynamical systems: A predictive safety filter for reinforcement learning](https://www.researchgate.net/profile/Kim-Wabersich/publication/329641554_Safe_exploration_of_nonlinear_dynamical_systems_A_predictive_safety_filter_for_reinforcement_learning/links/5ede2aab299bf1d20bd87981/Safe-exploration-of-nonlinear-dynamical-systems-A-predictive-safety-filter-for-reinforcement-learning.pdf),
