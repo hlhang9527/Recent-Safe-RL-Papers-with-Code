@@ -2,6 +2,7 @@
 This repo lists most recent papers with their code in safe RL, some papers without available code are not included. Welcome to change this list if additional documents found.
 ## Algorithms
 ### Safe Exploration
+- [Conservative Exploration in Reinforcement Learning](http://proceedings.mlr.press/v108/garcelon20a.html), International Conference on Artificial Intelligence and Statistics 2020
 - [Projection-based Constrained Policy Optimization (PCPO)](https://openreview.net/forum?id=M3NDrHEGyyO), 2020 ICLR, no code.
 - [Accelerating Safe Reinforcement Learning with Constraint-mismatched Baseline Policies](https://proceedings.mlr.press/v139/yang21i.html), 2021 ICML, [code](https://sites.google.com/view/spacealgo)
 - [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf), 2018 Nips
@@ -63,6 +64,14 @@ This repo lists most recent papers with their code in safe RL, some papers witho
 
 
 ## Applications
+- [Safe reinforcement learning using risk mapping by similarity](https://journals.sagepub.com/doi/full/10.1177/1059712319859650?casa_token=6BNIZh3WTNQAAAAA%3ADyP_V7fqfFw8EtEUaXPJRek5GytQvozallCQK5PZB642fZDRsFIWsyojC0hgbQdbCHdQNZltjaqMAr4)
+- [Autonomous navigation via deep reinforcement learning for resource constraint edge nodes using transfer learning](https://ieeexplore.ieee.org/abstract/document/8978577)
+- [Safe deep reinforcement learning-based constrained optimal control scheme for active distribution networks]
+- [Deep reinforcement learning with reference system to handle constraints for energy-efficient train control](https://www.sciencedirect.com/science/article/pii/S0020025521004291?casa_token=IntFGhMSP5QAAAAA:2E2XZ0WaBZjL9QSdLLCC0qPfK1pLVUR3bSxJSHf4z_pHj8B9y86bcTXR4N9VFd8dWszdgyxdgexC)
+- [Deep reinforcement learning driven inspection and maintenance planning under incomplete information and constraints](https://ieeexplore.ieee.org/abstract/document/9310351?casa_token=ij05d_SG1BsAAAAA:Jea6CZG_a86irUUsBo15dPspnqCsiPITTNUrba62M6ECgvlPCDYoVCgQcK_vu1OGRyG9fMPSBiE)
+- [Deep-Reinforcement-Learning-Based Capacity Scheduling for PV-Battery Storage System](https://ieeexplore.ieee.org/abstract/document/9310351?casa_token=ij05d_SG1BsAAAAA:Jea6CZG_a86irUUsBo15dPspnqCsiPITTNUrba62M6ECgvlPCDYoVCgQcK_vu1OGRyG9fMPSBiE)
+- [Multi-Agent Safe Policy Learning for Power Management of Networked Microgrids](https://ieeexplore.ieee.org/abstract/document/9244070?casa_token=YGeQ-psZnSIAAAAA:0ewUNYMNfFybmsnR3MTvpbsORQ8nZe5ReX4_cdRCTfynwfJZpxYvoLNz6_LBHez_QH5JfTAm6Gc)
+- [Constrained EV Charging Scheduling Based on Safe Deep Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/8910361?casa_token=6VikMwPZGgwAAAAA:v6XtBm2bJ-AGtqJeinqwOTXQ10G_mUM7YbGTo8OqIR-6Bd-9SCshidm6U0uBefejD2JdxWrvgeU)
 - [Constrained Dual-Level Bandit for Personalized Impression Regulation in Online Ranking Systems](https://dl.acm.org/doi/fullHtml/10.1145/3461340)
 - [Estimating and Penalizing Preference Shift in Recommender Systems](https://dl.acm.org/doi/abs/10.1145/3460231.3478849)
 - [Short-term wind speed forecasting using deep reinforcement learning with improved multiple error correction approach](https://www.sciencedirect.com/science/article/pii/S0360544221023768?casa_token=-Be0aQLq640AAAAA:GhRzGMioBFB_ZnWGtGLiWMtcTjgsqkQd969u6jp-ORwjADhPbazlLfY-0bhCxzpgyt68Jc8UbQQ6)
@@ -73,21 +82,24 @@ This repo lists most recent papers with their code in safe RL, some papers witho
 - [A Learning-based Optimal Market Bidding Strategy for Price-Maker Energy Storage](https://arxiv.org/abs/2106.02396)
 - [Energy-Efficient Secure Video Streaming in UAV-Enabled Wireless Networks: A Safe-DQN Approach](https://ieeexplore.ieee.org/abstract/document/9475975?casa_token=C2XRMAYDyywAAAAA:YA44uHtZya3Jqvs3DwrT42anOFECyjtH2bZ_yGMpxsxbFMpiFasPoP9vZ6Lbifk1lvGFAtkGfU4)
 - [Trajectory Optimization for UAV Emergency Communication with Limited User Equipment Energy: A safe-DQN Approach](https://ieeexplore.ieee.org/abstract/document/9385412?casa_token=6VQg4qiD46QAAAAA:XdBL7C5Jq9D3weiL_ma3YwmnWVfmK2mdAOJyGL0ZHfr4-BEttnvWscyzE4DrSak76IbNKfEWrnw)
+- [Optimal energy management strategies for energy Internet via deep reinforcement learning approach](https://www.sciencedirect.com/science/article/pii/S0306261919301746?casa_token=5Djio1TTOAYAAAAA:mO5QLb9pggLLk9iwop_PL5v0JnDtC0jo-dZKh7N-xLSc7wn1HqDCbelUBP4Jwybad4wLwC09pSzu)
 ## Combine with other methods:
 - [Provably Safe Model-Based Meta Reinforcement Learning: An Abstraction-Based Approach](https://arxiv.org/abs/2109.01255)
 - [Context-Aware Safe Reinforcement Learning for Non-Stationary Environments](https://arxiv.org/pdf/2101.00531.pdf), 2021 arxiv, no code, meta-learning
 - [Learning to be Safe: Deep RL with a Safety Critic](https://arxiv.org/pdf/2010.14603.pdf), 2020 arxiv, no code, transfer learning
 - [Safe exploration of nonlinear dynamical systems: A predictive safety filter for reinforcement learning](https://www.researchgate.net/profile/Kim-Wabersich/publication/329641554_Safe_exploration_of_nonlinear_dynamical_systems_A_predictive_safety_filter_for_reinforcement_learning/links/5ede2aab299bf1d20bd87981/Safe-exploration-of-nonlinear-dynamical-systems-A-predictive-safety-filter-for-reinforcement-learning.pdf),
-no code
+no code, arxiv
 - [REINFORCEMENT LEARNING WITH SAFE EXPLORATION FOR NETWORK SECURITY](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8682983&casa_token=GeE4bpTF4HgAAAAA:NJQIciHEQmPecuZFKdeutprlK17SIkwZcf70ac-qI-LWbe_qeHIVTzAAo2ZEzxDf41DQsrFE4w&tag=1),
 no code
 - [Continuous Safe Learning Based on First Principles and Constraints for
 Autonomous Driving](http://ceur-ws.org/Vol-2560/paper29.pdf), no code
 - [Blind Spot Detection for Safe Sim-to-Real Transfer](https://www.jair.org/index.php/jair/article/view/11436), [code](https://github.com/ramya-ram/discovering-blind-spots)
 - [UAV-aided cellular communications with deep reinforcement learning against jamming](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9170648&casa_token=mubTX-ORnokAAAAA:cW2QQrilGVmGgf_tKBiwmBBBIvqeGNM30ujTlZYrgShSx2_l0Id-r-Dtaz7Oium2WksPYeLefQ), no code
-- [Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences](http://proceedings.mlr.press/v119/brown20a/brown20a.pdf), ICML 2020, [code](- [Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences](http://proceedings.mlr.press/v119/brown20a/brown20a.pdf), ICML 2020, [code]()
-)
+
+- [Safe Imitation Learning via Fast Bayesian Reward Inference from Preferences](http://proceedings.mlr.press/v119/brown20a/brown20a.pdf), ICML 2020, [code](https://github.com/dsbrown1331/bayesianrex)
+
 - [Safe policy improvement with baseline bootstrapping](http://proceedings.mlr.press/v97/laroche19a/laroche19a.pdf), ICML 2019
+- [Safe policy improvement with baseline bootstrapping in factored environments](https://ojs.aaai.org/index.php/AAAI/article/view/4427), aaai 2020
 ## Surveys
 - [A Comprehensive Survey on Safe Reinforcement Learning](http://www.jmlr.org/papers/volume16/garcia15a/garcia15a.pdf)
 - [Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning](https://paperswithcode.com/paper/safe-learning-in-robotics-from-learning-based), 2021, [code](https://github.com/utiasDSL/safe-control-gym)
